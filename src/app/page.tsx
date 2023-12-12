@@ -1,4 +1,4 @@
-import Counter from '@/ui/counters/Counter'
+import Counter from '@/app/ui/counters/Counter'
 import Image from 'next/image'
 import { MantineProvider, Button } from '@mantine/core'
 

@@ -35,12 +35,12 @@
 
   .link[data-active]  {
     background-color: var(--mantine-color-blue-light);
-    color: var(--mantine-color-blue-light-color);
+    color: var(--mantine-color-blue-light-color) !important;
   }
 
   .link[data-active]:hover {
     background-color: var(--mantine-color-blue-light);
-    color: var(--mantine-color-blue-light-color);
+    color: var(--mantine-color-blue-light-color) !important;
   }
   
 

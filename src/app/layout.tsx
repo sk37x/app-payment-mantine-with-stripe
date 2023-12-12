@@ -28,9 +28,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-        
         <head>
-          <title>App Payment 888</title>
+          <title>App Payment</title>
           <link rel="icon" type="image/x-icon" href="/images/uniclass_logo.png" sizes="any" />
           <ColorSchemeScript />
         </head>

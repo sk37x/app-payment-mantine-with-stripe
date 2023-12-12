@@ -1,10 +1,16 @@
-import { fetchProducts, fetchProductsPrices } from '@/lib/data';
+import { fetchProductsAndPrices } from '@/app/lib/data';
+import { Box, Title } from '@mantine/core';
 import React from 'react';
 
 const ShopPage = async (props:{}) => {
-    // const prices = await fetchProductsPrices();
+    const products = await fetchProductsAndPrices();
+    // console.log(products);
     
-    return <div>ShopPage</div>
+    return (
+        <Box w='100%'>
+            <Title>Shop Page</Title>
+        </Box>
+    )
 };
 
 export default ShopPage

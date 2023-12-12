@@ -32,7 +32,6 @@ export function SideNav({children}: { children: React.ReactNode}) {
     </NextLink>
   ));
 
-  
   return (
     <AppShell
       header={{ height: 60 }}
@@ -46,14 +45,14 @@ export function SideNav({children}: { children: React.ReactNode}) {
               <AspectRatio ratio={3} w='130px' h='50px'>
                 {
                   theme === 'light' ? 
-                  <NextImage 
+                  <NextImage
                       src={'/images/uniclass_logo_resize.png'}
                       width={120}
                       height={120}
                       alt="uniclass logo"
                       priority={true}
                   /> : 
-                  <NextImage 
+                  <NextImage
                       src={'/images/uniclass_logo_resize_white.png'}
                       width={120}
                       height={120}
@@ -82,14 +81,12 @@ export function SideNav({children}: { children: React.ReactNode}) {
                 {links}
             </ScrollArea>
             <Box mt='auto'>
-                    <Divider />
+                <Divider />
                 <Box w='100%' h='100%' p='1rem 0'>
                     <div>User Account</div>
                 </Box>
             </Box>
-
       </AppShell.Navbar>
-      
       <AppShell.Main>{children}</AppShell.Main>
     </AppShell>
   );
